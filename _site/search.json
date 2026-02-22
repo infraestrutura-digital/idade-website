@@ -385,6 +385,13 @@
     "text": "🔒 Infraestrutura Pública Digital\n\n\n\n\n\nComprova que uma pessoa tem 18 anos ou mais, sem revelar sua identidade ou qualquer dado pessoal.\nConstruída sobre padrões abertos e credenciais verificáveis descentralizadas.\n\n\n\n\n\n\nProteção digital para crianças e adolescentes"
   },
   {
+    "objectID": "index.html#infraestrutura-pública-digital-para-proteção-de-crianças-e-adolescentes",
+    "href": "index.html#infraestrutura-pública-digital-para-proteção-de-crianças-e-adolescentes",
+    "title": "Verificação de Idade - Infraestrutura Pública Digital para Proteção de Crianças e Adolescentes",
+    "section": "",
+    "text": "Comprova que uma pessoa tem 18 anos ou mais, sem revelar sua identidade ou qualquer dado pessoal.\nConstruída sobre padrões abertos e credenciais verificáveis descentralizadas."
+  },
+  {
     "objectID": "index.html#para-quem-é-a-verificação-de-idade",
     "href": "index.html#para-quem-é-a-verificação-de-idade",
     "title": "Verificação de Idade - Infraestrutura Pública Digital para Proteção de Crianças e Adolescentes",
@@ -392,11 +399,11 @@
     "text": "Para quem é a Verificação de Idade?\nA Verificação de Idade é uma infraestrutura pública que beneficia cidadãos, empresas e desenvolvedores. Cada grupo tem um papel específico nesse ecossistema de proteção de crianças e adolescentes.\nSelecione acima o perfil que mais se encaixa com a sua situação para entender como funciona para você."
   },
   {
-    "objectID": "index.html#pronto-para-integrar-ou-saber-mais",
-    "href": "index.html#pronto-para-integrar-ou-saber-mais",
+    "objectID": "index.html#plataforma-digital-ou-desenvolvedor",
+    "href": "index.html#plataforma-digital-ou-desenvolvedor",
     "title": "Verificação de Idade - Infraestrutura Pública Digital para Proteção de Crianças e Adolescentes",
-    "section": "Pronto para integrar ou saber mais?",
-    "text": "Pronto para integrar ou saber mais?\nA Verificação de Idade é uma infraestrutura aberta, documentada e disponível para toda a sociedade.\nAcesse a documentação técnica"
+    "section": "Plataforma Digital ou Desenvolvedor?",
+    "text": "Plataforma Digital ou Desenvolvedor?\nA Verificação de Idade é uma infraestrutura aberta, documentada e disponível para toda a sociedade.\nAcesse a documentação técnica"
   },
   {
     "objectID": "jornada-usuario.html",
@@ -439,26 +446,5 @@
     "title": "Jornada do Usuário",
     "section": "O que fazer se tiver problemas",
     "text": "O que fazer se tiver problemas\n\n\n\n\n\n\nTipCredencial não aparece no app\n\n\n\nAtualize o app gov.br para a versão mais recente. Se o problema persistir, acesse o site gov.br pelo navegador e verifique se sua conta está ativa e no nível correto.\n\n\n\n\n\n\n\n\nTipQR Code não funciona\n\n\n\nCertifique-se de que está usando a câmera do app gov.br, não a câmera padrão do celular. O QR Code da Verificação de Idade só funciona com o leitor integrado ao wallet.\n\n\n\n\n\n\n\n\nTipCredencial expirada\n\n\n\nAbra o app gov.br, vá em “Credenciais” e solicite a renovação. O processo é automático e leva menos de 1 minuto.\n\n\nVer Perguntas Frequentes →"
-  },
-  {
-    "objectID": "index.html#infraestrutura-pública-digital-para-proteção-de-crianças-e-adolescentes-online.",
-    "href": "index.html#infraestrutura-pública-digital-para-proteção-de-crianças-e-adolescentes-online.",
-    "title": "Verificação de Idade - Infraestrutura Pública Digital para Proteção de Crianças e Adolescentes",
-    "section": "",
-    "text": "Comprova que uma pessoa tem 18 anos ou mais, sem revelar sua identidade ou qualquer dado pessoal.\nConstruída sobre padrões abertos e credenciais verificáveis descentralizadas."
-  },
-  {
-    "objectID": "index.html#infraestrutura-pública-digital-para-proteção-de-crianças-e-adolescentes",
-    "href": "index.html#infraestrutura-pública-digital-para-proteção-de-crianças-e-adolescentes",
-    "title": "Verificação de Idade - Infraestrutura Pública Digital para Proteção de Crianças e Adolescentes",
-    "section": "",
-    "text": "Comprova que uma pessoa tem 18 anos ou mais, sem revelar sua identidade ou qualquer dado pessoal.\nConstruída sobre padrões abertos e credenciais verificáveis descentralizadas."
-  },
-  {
-    "objectID": "index.html#plataforma-digital-ou-desenvolvedor",
-    "href": "index.html#plataforma-digital-ou-desenvolvedor",
-    "title": "Verificação de Idade - Infraestrutura Pública Digital para Proteção de Crianças e Adolescentes",
-    "section": "Plataforma Digital ou Desenvolvedor?",
-    "text": "Plataforma Digital ou Desenvolvedor?\nA Verificação de Idade é uma infraestrutura aberta, documentada e disponível para toda a sociedade.\nAcesse a documentação técnica"
   }
 ]
