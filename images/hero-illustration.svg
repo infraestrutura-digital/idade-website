@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320">
+  <!-- Background dome / shield -->
+  <ellipse cx="200" cy="280" rx="140" ry="20" fill="rgba(255,255,255,0.08)"/>
+  <path d="M200 40 C280 40 340 80 340 160 C340 230 270 290 200 310 C130 290 60 230 60 160 C60 80 120 40 200 40 Z" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <!-- Inner glow -->
+  <path d="M200 70 C260 70 310 100 310 160 C310 215 258 265 200 280 C142 265 90 215 90 160 C90 100 140 70 200 70 Z" fill="rgba(38,112,232,0.15)"/>
+  <!-- Child silhouette -->
+  <circle cx="200" cy="148" r="22" fill="rgba(255,255,255,0.9)"/>
+  <rect x="182" y="170" width="36" height="48" rx="6" fill="rgba(255,255,255,0.9)"/>
+  <!-- Tablet -->
+  <rect x="188" y="182" width="24" height="18" rx="2" fill="#1351B4"/>
+  <rect x="190" y="184" width="20" height="14" rx="1" fill="#2670E8"/>
+  <!-- Stars / sparkles -->
+  <circle cx="100" cy="100" r="3" fill="#FFCD07" opacity="0.8"/>
+  <circle cx="300" cy="120" r="3" fill="#FFCD07" opacity="0.8"/>
+  <circle cx="130" cy="220" r="2" fill="#FFCD07" opacity="0.6"/>
+  <circle cx="270" cy="240" r="2" fill="#FFCD07" opacity="0.6"/>
+  <circle cx="80" cy="170" r="4" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="320" cy="180" r="4" fill="rgba(255,255,255,0.4)"/>
+  <!-- Check mark shield badge -->
+  <circle cx="200" cy="40" r="18" fill="#FFCD07"/>
+  <polyline points="192,40 198,46 210,34" fill="none" stroke="#071D41" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

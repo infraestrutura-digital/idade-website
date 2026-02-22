@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <circle cx="40" cy="40" r="38" fill="#DBE8FB"/>
+  <!-- Lock body -->
+  <rect x="24" y="36" width="32" height="22" rx="4" fill="#1351B4"/>
+  <!-- Lock shackle -->
+  <path d="M30 36 V28 C30 21 50 21 50 28 V36" fill="none" stroke="#1351B4" stroke-width="4" stroke-linecap="round"/>
+  <!-- Keyhole -->
+  <circle cx="40" cy="46" r="4" fill="white"/>
+  <rect x="38" y="48" width="4" height="5" fill="white"/>
+  <!-- Leaf -->
+  <path d="M52 20 C56 16 62 18 60 24 C58 28 52 28 52 28 C52 28 50 22 52 20 Z" fill="#1E7E34"/>
+  <path d="M52 28 C55 23 58 20 60 18" fill="none" stroke="#1E7E34" stroke-width="1.5"/>
+</svg>

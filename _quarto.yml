@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Verificação de Idade"
+  description: "Infraestrutura Pública Digital para Proteção de Crianças e Adolescentes"
+  site-url: https://idade.infraestrutura.digital
+
+  navbar:
+    background: "#071D41"
+    foreground: "white"
+    left:
+      - text: "Para o Cidadão"
+        href: cidadao.md
+      - text: "Para os Negócios"
+        href: negocio.md
+      - text: "Para Desenvolvedores"
+        href: desenvolvedor.md
+      - text: "Para a Mídia e Academia"
+        href: jornalista.md
+
+      - text: "Como Funciona"
+        menu:
+          - text: "Visão Geral"
+            href: como-funciona.html
+          - text: "Credencial Verificável"
+            href: credencial-verificavel.html
+          - text: "Comprovar Idade sem Revelar Identidade"
+            href: comprovar-idade.html
+          - text: "Jornada do Usuário"
+            href: jornada-usuario.html
+          - text: "Perguntas Frequentes"
+            href: faq.html
+      
+    right:
+      - icon: github
+        href: https://github.com/cipd
+        aria-label: GitHub
+
+  sidebar: false
+
+  open-graph:
+    title: "Verificação de Idade"
+    description: "Infraestrutura Pública Digital para Proteção de Crianças e Adolescentes"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    toc: false
+    smooth-scroll: true
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.cdnfonts.com">
+        <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/rawline">
+    include-after-body: _footer.html

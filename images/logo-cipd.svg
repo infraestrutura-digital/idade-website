@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 48" width="160" height="48">
+  <!-- Shield icon -->
+  <path d="M12 6 L24 10 L24 22 C24 29 18 34 12 36 C6 34 0 29 0 22 L0 10 Z" fill="#FFCD07" transform="translate(4,6) scale(0.9)"/>
+  <path d="M12 10 L20 13.5 V21 C20 26.5 16.5 31 12 32.5 C7.5 31 4 26.5 4 21 V13.5 Z" fill="#1351B4" transform="translate(4,6) scale(0.9)"/>
+  <text x="14" y="30" font-size="14" font-weight="700" fill="white" font-family="sans-serif" text-anchor="middle">IP</text>
+  <!-- Text -->
+  <text x="44" y="20" font-size="10" font-weight="700" fill="white" font-family="sans-serif">Centro de Infraestruturas</text>
+  <text x="44" y="33" font-size="10" font-weight="700" fill="#FFCD07" font-family="sans-serif">Públicas Digitais</text>
+</svg>

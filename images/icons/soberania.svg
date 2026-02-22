@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80">
+  <circle cx="40" cy="40" r="38" fill="#DBE8FB"/>
+  <!-- Phone outline -->
+  <rect x="26" y="18" width="28" height="44" rx="4" fill="white" stroke="#1351B4" stroke-width="2"/>
+  <rect x="30" y="24" width="20" height="28" fill="#EEF4FF"/>
+  <circle cx="40" cy="57" r="2" fill="#1351B4"/>
+  <!-- Key on screen -->
+  <circle cx="40" cy="36" r="6" fill="none" stroke="#FFCD07" stroke-width="2.5"/>
+  <line x1="46" y1="36" x2="52" y2="36" stroke="#FFCD07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="50" y1="36" x2="50" y2="39" stroke="#FFCD07" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="52" y1="36" x2="52" y2="39" stroke="#FFCD07" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

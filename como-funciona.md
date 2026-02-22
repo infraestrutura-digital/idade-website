@@ -1,0 +1,97 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.page-hero}
+
+::: {.breadcrumb-nav style="background:transparent;border:none;padding:0 0 0.75rem;font-size:0.8rem;color:rgba(255,255,255,0.6);"}
+[Início](index.html) <span class="sep">/</span> Entenda como funciona
+:::
+
+# Entenda como funciona
+
+::: {.lead}
+Uma visão geral de como a Verificação de Idade usa criptografia moderna para proteger menores de 18 anos sem comprometer a privacidade de ninguém.
+:::
+
+:::
+
+::: {.subnav}
+- [O que é Credencial Verificável](credencial-verificavel.html)
+- [Como comprovar sem revelar identidade](comprovar-idade.html)
+- [Jornada do Usuário](jornada-usuario.html)
+- [Perguntas Frequentes](faq.html)
+:::
+
+::: {.page-content}
+
+## A tecnologia por trás do sistema
+
+A Verificação de Idade utiliza **Credenciais Verificáveis** (do inglês *Verifiable Credentials*), um padrão aprovado pelo **W3C** — o mesmo consórcio que define os padrões da web — para criar provas criptográficas de atributos pessoais.
+
+Pense nisso como uma carteira de identidade digital que, em vez de mostrar todos os seus dados quando você a apresenta, mostra apenas o que é estritamente necessário. Neste caso: "esta pessoa tem 18 anos ou mais."
+
+## Os três papéis do sistema
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+::: {.principle-card}
+
+### 🏛️ Emissor
+
+O **gov.br** emite a credencial após verificar a identidade do cidadão. O emissor assina criptograficamente a credencial, garantindo sua autenticidade.
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {.principle-card}
+
+### 👤 Titular
+
+O **cidadão** guarda a credencial em seu dispositivo (wallet). Ele decide quando e para quem apresentá-la, mantendo controle total.
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {.principle-card}
+
+### 🖥️ Verificador
+
+A **plataforma ou serviço** solicita a credencial e a verifica matematicamente, sem precisar contactar o emissor para cada verificação.
+
+:::
+
+:::
+
+::::
+
+## Por que não usar simplesmente o CPF?
+
+Soluções baseadas em envio de CPF ou documento de identidade para plataformas privadas apresentam riscos graves:
+
+- **Vazamentos de dados**: milhões de CPFs em poder de empresas privadas formam alvos valiosos para ataques
+- **Rastreamento**: com seu CPF, a plataforma pode cruzar dados e monitorar comportamentos
+- **Dependência de terceiros**: verificação depende de serviços privados que podem falhar ou mudar seus termos
+- **Desigualdade de poder**: o cidadão perde o controle sobre seus próprios dados
+
+A Verificação de Idade resolve todos esses problemas sem abrir mão da efetividade.
+
+## Explore as seções
+
+Navegue pelo menu acima para entender em detalhes:
+
+- [O que é uma Credencial Verificável](credencial-verificavel.html) e como funciona tecnicamente
+- [Como é possível provar idade sem revelar identidade](comprovar-idade.html) — a magia da criptografia
+- [A jornada passo a passo](jornada-usuario.html) de um cidadão usando o sistema
+- [Perguntas frequentes](faq.html) sobre segurança, privacidade e acesso
+
+:::
