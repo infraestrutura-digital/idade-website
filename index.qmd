@@ -7,7 +7,7 @@ page-layout: full
 
 :::: {.columns}
 
-::: {.column width="55%"}
+::: {.column width="50%"}
 
 ::: {.hero-badge}
  🔒 Infraestrutura Pública Digital 
@@ -15,15 +15,13 @@ page-layout: full
 
 # Verificação de [Idade]{.highlight}
 
-::: {.hero-description}
+<!-- ::: {.hero-description} -->
 ## Infraestrutura pública digital para proteção de crianças e adolescentes
 
 
 
-Comprova que uma pessoa tem 18 anos ou mais, sem revelar sua identidade ou qualquer dado pessoal.
-
-Construída sobre padrões abertos e credenciais verificáveis descentralizadas.
-:::
+Comprova que uma pessoa tem 18 anos ou mais, sem revelar sua identidade ou qualquer dado pessoal. Construída sobre padrões abertos e credenciais verificáveis.
+<!-- ::: -->
 :::
 
 <!-- 
@@ -31,7 +29,7 @@ Construída sobre padrões abertos e credenciais verificáveis descentralizadas.
 [Entenda como funciona →](como-funciona.html){.btn-primary-govbr}
 
 ::: -->
-::: {.column width="45%"}
+::: {.column width="50%"}
 
 ![Proteção digital para crianças e adolescentes](images/hero-illustration.png){width=90%}
 
@@ -53,7 +51,7 @@ Construída sobre padrões abertos e credenciais verificáveis descentralizadas.
 
 ## Para quem é a Verificação de Idade?
 
-A Verificação de Idade é uma infraestrutura pública que beneficia cidadãos, empresas e desenvolvedores. Cada grupo tem um papel específico nesse ecossistema de proteção de crianças e adolescentes.
+A **Verificação de Idade** é uma infraestrutura pública que beneficia cidadãos, empresas e desenvolvedores. Cada grupo tem um papel específico nesse ecossistema de proteção de crianças e adolescentes.
 
 Selecione acima o perfil que mais se encaixa com a sua situação para entender como funciona para você.
 
@@ -160,7 +158,7 @@ Entenda como funciona
 :::
 
 ::: {.section-subtitle}
-O sistema usa Credenciais Verificáveis para provar maioridade sem revelar identidade. Entenda cada etapa do processo.
+O sistema usa Credenciais Verificáveis para provar maioridade sem revelar identidade. [Entenda cada etapa do processo](como-funciona/como-funciona.qmd).
 :::
 
 :::: {.columns}
@@ -177,7 +175,7 @@ O sistema usa Credenciais Verificáveis para provar maioridade sem revelar ident
 
 Uma forma segura e privada de provar fatos sobre você sem revelar dados desnecessários.
 
-[Saiba mais →](credencial-verificavel.html){.arrow-link}
+[Saiba mais →](como-funciona/credencial-verificavel.qmd){.arrow-link}
 
 :::
 

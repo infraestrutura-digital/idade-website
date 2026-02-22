@@ -1,5 +1,6 @@
 ---
-title: ""
+title: "Como Funciona"
+subtitle: Uma visão geral de como a Verificação de Idade usa criptografia moderna para proteger menores de 18 anos sem comprometer a privacidade de ninguém.
 page-layout: full
 ---
 

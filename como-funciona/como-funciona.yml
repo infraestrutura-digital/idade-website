@@ -1,0 +1,10 @@
+- title: "Como Funciona"
+  links:
+    - text: Visão Geral
+      href: como-funciona/visao-geral.qmd
+    - text: Credenciais Verificáveis
+      href: como-funciona/credenciais-verificaveis.qmd
+    - text: Jornada do Cidadão
+      href: como-funciona/jornada-cidadao.qmd
+    - text: Perguntas Frequentes
+      href: como-funciona/perguntas-frequentes.qmd

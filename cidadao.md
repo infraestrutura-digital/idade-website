@@ -65,7 +65,7 @@ Você decide quando e para quem apresentar a credencial. Nenhum banco de dados c
 
 ## Seus direitos nesse processo
 
-> A Verificação de Idade foi projetada para estar em conformidade com a **Lei Geral de Proteção de Dados (LGPD)** e com o **Marco Civil da Internet**, garantindo seus direitos fundamentais à privacidade e à proteção de dados pessoais.
+> A Verificação de Idade foi projetada para estar em conformidade com a **Lei Geral de Proteção de Dados (LGPD)** e com o **ECA Digital**, garantindo seus direitos fundamentais à privacidade e à proteção de dados pessoais.
 
 Você tem o direito de:
 

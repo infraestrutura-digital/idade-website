@@ -1,6 +1,7 @@
 ---
 title: ""
 page-layout: full
+sidebar: true
 ---
 
 ::: {.page-hero}
@@ -18,7 +19,7 @@ A criptografia moderna torna possível provar que você tem 18 anos ou mais sem 
 :::
 
 ::: {.subnav}
-- [O que é Credencial Verificável](credencial-verificavel.html)
+- [O que é uma Credencial Verificável](credencial-verificavel.html)
 - [Como comprovar sem revelar identidade](comprovar-idade.html){.active}
 - [Jornada do Usuário](jornada-usuario.html)
 - [Perguntas Frequentes](faq.html)

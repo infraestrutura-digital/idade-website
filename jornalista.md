@@ -6,10 +6,10 @@ page-layout: full
 ::: {.page-hero}
 
 ::: {.breadcrumb-nav style="background:transparent;border:none;padding:0 0 0.75rem;font-size:0.8rem;color:rgba(255,255,255,0.6);"}
-[Início](index.html) <span class="sep">/</span> Sou Jornalista / Gestor
+[Início](index.html) <span class="sep">/</span> Sou Jornalista / Pesquisador/ Gestor
 :::
 
-# Sou Jornalista / Gestor
+# Sou Jornalista / Pesquisador / Gestor
 
 ::: {.lead}
 Informações sobre o contexto, impacto e dados do projeto Verificação de Idade para cobertura jornalística e gestão pública.
@@ -24,7 +24,7 @@ Informações sobre o contexto, impacto e dados do projeto Verificação de Idad
 - [Sou Cidadão](cidadao.html)
 - [Sou Negócio](negocio.html)
 - [Sou Desenvolvedor](desenvolvedor.html)
-- [Sou Jornalista / Gestor](jornalista.html){.active}
+- [Sou Jornalista / Pesquisador / Gestor](jornalista.html){.active}
 
 :::
 

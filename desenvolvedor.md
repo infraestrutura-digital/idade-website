@@ -24,7 +24,7 @@ Documentação técnica completa, SDKs e ambiente de testes para integrar a Veri
 - [Sou Cidadão](cidadao.html)
 - [Sou Negócio](negocio.html)
 - [Sou Desenvolvedor](desenvolvedor.html){.active}
-- [Sou Jornalista / Gestor](jornalista.html)
+- [Sou Jornalista / Pesquisador / Gestor](jornalista.html)
 
 :::
 

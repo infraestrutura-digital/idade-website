@@ -28,5 +28,32 @@
   },
   "comprovar-idade.md": {
     "comprovar-idade.html": "aa1a71b2"
+  },
+  "como-funciona.qmd": {
+    "como-funciona.html": "c44a6c85"
+  },
+  "como-funciona/credencial-verificavel.md": {
+    "credencial-verificavel.html": "9fc54bf8"
+  },
+  "como-funciona/como-funciona.qmd": {
+    "como-funciona.html": "4b8154c9"
+  },
+  "como-funciona/jornada-usuario.md": {
+    "jornada-usuario.html": "474c8b5c"
+  },
+  "como-funciona/comprovar-idade.md": {
+    "comprovar-idade.html": "54f95078"
+  },
+  "index.qmd": {
+    "index.html": "08dd89f7"
+  },
+  "como-funciona/credencial-verificavel.qmd": {
+    "credencial-verificavel.html": "a93cf108"
+  },
+  "como-funciona/jornada-usuario.qmd": {
+    "jornada-usuario.html": "82719929"
+  },
+  "como-funciona/comprovar-idade.qmd": {
+    "comprovar-idade.html": "1cce27ac"
   }
 }

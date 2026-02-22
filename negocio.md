@@ -24,7 +24,7 @@ Integre a Verificação de Idade na sua plataforma de forma simples, segura e em
 - [Sou Cidadão](cidadao.html)
 - [Sou Negócio](negocio.html){.active}
 - [Sou Desenvolvedor](desenvolvedor.html)
-- [Sou Jornalista / Gestor](jornalista.html)
+- [Sou Jornalista / Pesquisador / Gestor](jornalista.html)
 
 :::
 
