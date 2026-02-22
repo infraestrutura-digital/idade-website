@@ -35,7 +35,7 @@ website:
       
     right:
       - icon: github
-        href: https://github.com/cipd
+        href: https://github.com/infraestrutura-digital/idade-website
         aria-label: GitHub
 
   sidebar: false
