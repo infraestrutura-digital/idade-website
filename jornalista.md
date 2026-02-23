@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Sou Jornalista / Pesquisador / Gestor — Contexto, dados e cobertura do projeto"
 page-layout: full
 ---
 
