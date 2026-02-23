@@ -6,13 +6,13 @@ page-layout: full
 ::: {.page-hero}
 
 ::: {.breadcrumb-nav style="background:transparent;border:none;padding:0 0 0.75rem;font-size:0.8rem;color:rgba(255,255,255,0.6);"}
-[Início](index.html) <span class="sep">/</span> Sou Jornalista / Pesquisador/ Gestor
+[Início](index.html) <span class="sep">/</span> Sou Jornalista / Pesquisador / Gestor
 :::
 
 # Sou Jornalista / Pesquisador / Gestor
 
 ::: {.lead}
-Informações sobre o contexto, impacto e dados do projeto Verificação de Idade para cobertura jornalística e gestão pública.
+Contexto político e técnico, dados de impacto, comparações internacionais e materiais de apoio para cobertura jornalística, pesquisa acadêmica e gestão pública.
 :::
 
 :::
@@ -32,82 +32,116 @@ Informações sobre o contexto, impacto e dados do projeto Verificação de Idad
 
 ::: {.page-content}
 
+## Por que isso é uma notícia
+
+Este projeto representa uma mudança de lógica na forma como o Estado brasileiro lida com identidade digital, e tem pelo menos três ângulos relevantes para cobertura:
+
+**Privacidade vs. vigilância.** As soluções hoje disponíveis no mercado para verificação etária podem exigir que o cidadão entregue CPF, foto de documento ou dados biométricos sem que isso seja realmente necessário. Este projeto inverte essa lógica: a verificação acontece sem que nenhuma informação pessoal seja transferida.
+
+**Soberania tecnológica.** O Brasil desenvolve sua própria infraestrutura de identidade digital baseada em código aberto e padrões internacionais, em área que toca diretamente direitos fundamentais.
+
+**Impacto econômico para pequenos negócios.** A Lei 15.211/25 impõe obrigações de verificação etária a plataformas digitais. As soluções comerciais disponíveis podem ter custo alto para micro e pequenas empresas. Este projeto oferece uma alternativa pública e gratuita.
+
+---
+
 ## O que é o projeto
 
-A **Verificação de Idade** é uma iniciativa do **Centro de Infraestruturas Públicas Digitais (CIPD)**, órgão do governo federal brasileiro, que desenvolve infraestruturas abertas para a sociedade digital.
+A **Verificação de Idade com Credenciais Verificáveis** é uma iniciativa do **Ministério da Gestão e da Inovação em Serviços Públicos (MGI)** que cria um mecanismo técnico pelo qual plataformas digitais podem confirmar que um usuário é maior de 18 anos **sem receber qualquer dado pessoal** do cidadão: nem nome, nem CPF, nem qualquer identificador.
 
-O projeto cria um mecanismo técnico que permite que plataformas digitais verifiquem se um usuário é maior de 18 anos **sem receber qualquer dado pessoal** do cidadão — nem nome, nem CPF, nem qualquer identificador.
+A infraestrutura é pública, gratuita e baseada em código aberto. O emissor das credenciais é o **gov.br**, plataforma que já conta com 173 milhões de contas cadastradas e serve como identidade digital oficial do cidadão brasileiro.
 
 ## Por que esse projeto existe
 
-O crescimento do acesso de crianças e adolescentes a conteúdos inapropriados na internet se tornou um desafio regulatório em dezenas de países. No Brasil, o **Estatuto da Criança e do Adolescente (ECA)** e o **Marco Civil da Internet** já estabelecem responsabilidades para plataformas, mas faltava uma infraestrutura técnica que tornasse a verificação viável sem comprometer a privacidade dos usuários.
+O crescimento do acesso de crianças e adolescentes a conteúdos inapropriados na internet tornou-se um desafio regulatório em dezenas de países. No Brasil, a **Lei 15.211/25 (ECA Digital)** estabelece obrigações concretas para plataformas digitais, mas deixa em aberto *como* verificar a idade sem criar novos riscos de privacidade.
 
-Soluções anteriores, como o envio de CPF ou foto de documento para plataformas privadas, apresentam graves riscos:
-
-- Criação de bancos de dados centralizados vulneráveis a vazamentos
-- Transferência de dados sensíveis a empresas estrangeiras
-- Vigilância e rastreamento dos hábitos de navegação dos cidadãos
-
-A Verificação de Idade resolve esse problema com tecnologia criptográfica de ponta.
-
-## Comparação com soluções internacionais
-
-| País | Solução | Privacidade | Soberania |
-|------|---------|-------------|-----------|
-| Reino Unido | Age Verification por documento | ❌ Baixa | ❌ Depende de empresas privadas |
-| França | Verificação por operadora móvel | ⚠️ Parcial | ⚠️ Parcial |
-| UE (proposta) | EUDI Wallet | ✅ Alta | ✅ Alta |
-| **Brasil** | **Credencial Verificável gov.br** | ✅ Alta | ✅ Alta |
-
-## Cronograma e marcos
-
-- **2023** — Início das pesquisas e desenvolvimento do padrão técnico
-- **2024 T1** — Publicação da especificação técnica aberta
-- **2024 T2** — Lançamento do ambiente de sandbox para desenvolvedores
-- **2024 T3** — Piloto com plataformas parceiras
-- **2025** — Lançamento público da infraestrutura
+As credenciais verificáveis resolvem a verificação etária, com criptografia de ponta: especificamente com **Provas de Conhecimento Zero (Zero-Knowledge Proofs)**, que permitem confirmar um fato ("é maior de 18 anos") sem revelar nenhuma informação subjacente.
 
 ## Dados e estatísticas
 
 ::: {.info-card}
-**Cenário atual (IBGE / CGI.br)**
+**Contexto de uso da internet por crianças e adolescentes no Brasil**
 
-- 95% das crianças de 9 a 17 anos usam a internet regularmente
-- 78% acessam conteúdos sem qualquer restrição etária efetiva
-- Mais de 40 países já aprovaram ou discutem leis de verificação de idade online
+- 95% das crianças de 9 a 17 anos usam a internet regularmente — [CGI.br, TIC Kids Online Brasil 2023](https://cetic.br/pt/pesquisa/kids-online/)
+- 78% acessam conteúdos sem qualquer restrição etária efetiva — [CGI.br, 2023](https://cetic.br/pt/pesquisa/kids-online/)
+- Mais de 40 países já aprovaram ou discutem legislação de verificação de idade online
+
 :::
+
+::: {.info-card}
+**Impacto econômico estimado**
+
+- Soluções comerciais de verificação etária podem ter valor inviável para MPEs com alto volume de acessos
+- O Brasil tem mais de 20 milhões de micro e pequenas empresas com presença digital, número que tende a aumentar [SEBRAE, 2025](https://agenciasebrae.com.br/dados/brasil-bate-recorde-historico-na-abertura-de-pequenos-negocios/)
+- A infraestrutura pública elimina esse custo para plataformas que aderirem ao ecossistema
+
+:::
+
+## Comparação com soluções internacionais
+
+| País / Região | Solução | Privacidade | Soberania | Status |
+|---|---|---|---|---|
+| Reino Unido | Verificação por documento (upload de ID) | ❌ Baixa | ❌ Empresas privadas | Em produção |
+| França | Verificação por operadora móvel | ⚠️ Parcial | ⚠️ Parcial | Em produção |
+| União Europeia | EUDI Wallet (carteira digital europeia) | ✅ Alta | ✅ Alta | Em implantação |
+| **Brasil** | **Credencial Verificável via gov.br** | ✅ Alta | ✅ Alta | **MVP em testes** |
+
+A proposta brasileira é tecnicamente comparável à iniciativa europeia — e, em alguns aspectos, mais direta na implementação por ancorar-se numa infraestrutura de identidade digital (gov.br) já existente e em escala nacional.
+
+## Fases do projeto
+
+O projeto segue um modelo de implantação gradual, priorizando estabilidade técnica e confiança pública sobre velocidade de expansão:
+
+- **Fase 0** — Desenvolvimento da especificação técnica e publicação do código no GitHub
+- **Fase 1** — MVP com público restrito e plataformas parceiras *(em andamento)*
+- **Fase 2** — Expansão para pilotos estratégicos por setor
+- **Fase 3** — Abertura do Registro de Confiança para emissores certificados além do gov.br
+- **Fase 4** — Disponibilização ampla e integração com carteiras de mercado
 
 ## Equipe e parceiros
 
-O projeto é desenvolvido pelo **Centro de Infraestruturas Públicas Digitais** em colaboração com:
+O projeto é desenvolvido pelo **Ministério da Gestão e da Inovação em Serviços Públicos (MGI)** com os seguintes atores no ecossistema:
 
-- Secretaria de Governo Digital (SGD) / MPOG
-- Autoridade Nacional de Proteção de Dados (ANPD)
-- Ministério da Justiça e Segurança Pública
-- Laboratório de Políticas Públicas e Internet (LAPIN)
-- W3C Brasil
+| Parceiro | Papel |
+|---|---|
+| Secretaria de Governo Digital (SGD) | Coordenação estratégica e supervisão técnica |
+| Dataprev | Desenvolvimento e operação da infraestrutura |
+| Autoridade Nacional de Proteção de Dados (ANPD) | Consulta regulatória e validação de conformidade com a LGPD |
+| Ministério da Justiça e Segurança Pública | Alinhamento com ECA Digital e políticas de proteção de crianças |
+| MOSIP / Inji (parceiro técnico internacional) | Plataforma de código aberto utilizada como base tecnológica |
 
 ## Kit de imprensa
 
-Para jornalistas, disponibilizamos materiais de apoio:
+::: {.press-kit}
+Os materiais abaixo estão em preparação e serão disponibilizados ao longo da Fase 1 do projeto:
 
 - Ficha técnica do projeto (PDF)
-- Infográficos explicativos
-- Contato para entrevistas com especialistas técnicos
+- Infográficos explicativos para publicação
+- Descrição oficial para citação em matérias
+- Contato para entrevistas com especialistas técnicos e gestores do projeto
 
-**Contato para imprensa:** `imprensa@infraestrutura.digital`
+**Contato para imprensa:** `[em breve]`
 
-## Perguntas frequentes para a imprensa
+Para solicitações urgentes ou cobertura do piloto, entre em contato pelo [formulário de imprensa →](contato.html#imprensa).
+:::
+
+## Perguntas frequentes
 
 **O projeto é obrigatório para todas as plataformas?**
-Não. A Verificação de Idade é uma infraestrutura pública voluntária. A obrigatoriedade de verificação etária para determinados tipos de conteúdo é definida pela legislação brasileira; este projeto oferece a solução técnica para que as plataformas cumpram essas obrigações de forma privada.
+Não. A Verificação de Idade é uma infraestrutura pública de adesão voluntária. A obrigatoriedade de verificar a idade dos usuários é determinada pela Lei 15.211/25; este projeto oferece a solução técnica para que plataformas cumpram essa obrigação de forma que respeita a privacidade do cidadão.
 
-**O governo saberá quais sites o cidadão acessa?**
-Não. O emissor da credencial (gov.br) não é notificado quando o cidadão apresenta a credencial a uma plataforma. O fluxo é tecnicamente projetado para impedir esse rastreamento.
+**Qual é a diferença entre isso e simplesmente pedir o CPF?**
+Quando uma plataforma pede o CPF, ela recebe e armazena um dado pessoal sensível,  criando responsabilidade legal, risco de vazamento e potencial de rastreamento. Com a Credencial Verificável, a plataforma recebe apenas uma confirmação criptográfica ("maior de 18: sim"), sem nenhum dado identificável. É tecnicamente impossível rastrear o cidadão a partir dessa resposta.
 
-**Quanto custará para o cidadão?**
-Zero. A obtenção e uso da credencial é totalmente gratuita para cidadãos.
+**O governo conseguirá saber quais sites o cidadão acessa?**
+Não. O gov.br emite a credencial, mas não é notificado quando ela é apresentada a uma plataforma. A arquitetura do sistema foi projetada especificamente para impedir esse rastreamento, inclusive por parte do governo emissor.
 
-[Acessar FAQ completo →](faq.html){.btn-primary-govbr}
+**Quanto custa para o cidadão?**
+Zero. A obtenção e o uso da credencial são inteiramente gratuitos para cidadãos brasileiros com conta no gov.br nos níveis Prata ou Ouro.
+
+**O projeto foi validado pela ANPD?**
+A ANPD participa do ecossistema do projeto como parceira em consulta regulatória. A validação formal de conformidade com a LGPD está prevista para as fases subsequentes ao MVP.
+
+[Acessar documentação técnica →](docs/index.html){.btn-secondary}
+[Falar com a equipe →](contato.html){.btn-primary-govbr}
 
 :::
