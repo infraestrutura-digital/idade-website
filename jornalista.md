@@ -78,14 +78,7 @@ As credenciais verificáveis resolvem a verificação etária, com criptografia 
 
 ## Comparação com soluções internacionais
 
-| País / Região | Solução | Privacidade | Soberania | Status |
-|---|---|---|---|---|
-| Reino Unido | Verificação por documento (upload de ID) | ❌ Baixa | ❌ Empresas privadas | Em produção |
-| França | Verificação por operadora móvel | ⚠️ Parcial | ⚠️ Parcial | Em produção |
-| União Europeia | EUDI Wallet (carteira digital europeia) | ✅ Alta | ✅ Alta | Em implantação |
-| **Brasil** | **Credencial Verificável via gov.br** | ✅ Alta | ✅ Alta | **MVP em testes** |
-
-A proposta brasileira é tecnicamente comparável à iniciativa europeia — e, em alguns aspectos, mais direta na implementação por ancorar-se numa infraestrutura de identidade digital (gov.br) já existente e em escala nacional.
+A proposta brasileira é tecnicamente comparável à iniciativa europeia e, em alguns aspectos, mais direta na implementação por ancorar-se numa infraestrutura de identidade digital (gov.br) já existente e em escala nacional. Países como a França, a Bélgica e a Itália também fazem pilotos para verificação etária com credenciais verificáveis. 
 
 ## Fases do projeto
 
