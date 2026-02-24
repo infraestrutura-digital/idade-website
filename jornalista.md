@@ -126,7 +126,7 @@ Não. A Verificação de Idade é uma infraestrutura pública de adesão volunt�
 Quando uma plataforma pede o CPF, ela recebe e armazena um dado pessoal sensível,  criando responsabilidade legal, risco de vazamento e potencial de rastreamento. Com a Credencial Verificável, a plataforma recebe apenas uma confirmação criptográfica ("maior de 18: sim"), sem nenhum dado identificável. É tecnicamente impossível rastrear o cidadão a partir dessa resposta.
 
 **O governo conseguirá saber quais sites o cidadão acessa?**
-Não. O gov.br emite a credencial, mas não é notificado quando ela é apresentada a uma plataforma. A arquitetura do sistema foi projetada especificamente para impedir esse rastreamento, inclusive por parte do governo emissor.
+Não. O gov.br emite a credencial, mas não é notificado quando ela é apresentada a uma plataforma. A arquitetura do sistema foi projetada especificamente para impedir esse rastreamento, inclusive por parte do governo emissor. O objetivo é permitir a liberdade de navegação sem rastreamento para todas as pessoas usuárias do gov.br 
 
 **Quanto custa para o cidadão?**
 Zero. A obtenção e o uso da credencial são inteiramente gratuitos para cidadãos brasileiros com conta no gov.br nos níveis Prata ou Ouro.
