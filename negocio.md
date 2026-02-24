@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Sou Negócio — Verificação etária sem coletar dados dos seus usuários"
 page-layout: full
 ---
 
@@ -12,7 +12,7 @@ page-layout: full
 # Sou Negócio
 
 ::: {.lead}
-Integre a Verificação de Idade na sua plataforma de forma simples, segura e em conformidade com a legislação brasileira.
+Uma infraestrutura pública e gratuita para verificar a idade dos seus usuários sem que sua plataforma precise coletar dados pessoais.
 :::
 
 :::
@@ -32,30 +32,28 @@ Integre a Verificação de Idade na sua plataforma de forma simples, segura e em
 
 ::: {.page-content}
 
-## Por que integrar a Verificação de Idade?
+## Uma nova opção para o mercado
 
-Plataformas que disponibilizam conteúdo ou serviços voltados a adultos têm a **responsabilidade legal** de garantir que menores de 18 anos não tenham acesso. A Verificação de Idade oferece a forma mais segura, privada e juridicamente robusta de cumprir essa obrigação.
+A **Lei 15.211/25 (ECA Digital)** criou obrigações reais de verificação etária para plataformas digitais brasileiras. Cumprir essa exigência, até agora, exigia contratar soluções de mercado com custo por verificação, o que funciona bem para grandes plataformas, mas pode representar uma barreira significativa para micro e pequenas empresas.
 
-## Vantagens para o seu negócio
+A Verificação de Idade com Credenciais Verificáveis é uma infraestrutura pública que torna esse compliance acessível para qualquer tamanho de negócio, **de forma gratuita**, sem que sua plataforma precise armazenar ou processar dados pessoais dos usuários.
+
+## O que muda para o seu negócio
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-
 ::: {.info-card}
-### ✅ Conformidade Legal
-Atenda aos requisitos do **ECA**, do **Marco Civil da Internet** e das normas de proteção de menores sem necessidade de coletar dados adicionais dos seus usuários.
+### Custo zero de infraestrutura
+A plataforma é pública e gratuita para negócios de qualquer porte. Você paga apenas pelo desenvolvimento da integração uma vez.
 :::
-
 :::
 
 ::: {.column width="50%"}
-
 ::: {.info-card}
-### 🔒 Sem Responsabilidade sobre Dados
-Como a verificação é feita pelo usuário diretamente, sua plataforma **não recebe nem armazena** dados sensíveis. Isso reduz drasticamente sua exposição à LGPD.
+### Sem responsabilidade sobre dados sensíveis
+Sua plataforma não recebe nem armazena CPF, foto de documento ou qualquer dado pessoal. Isso reduz drasticamente sua exposição à LGPD.
 :::
-
 :::
 
 ::::
@@ -63,55 +61,87 @@ Como a verificação é feita pelo usuário diretamente, sua plataforma **não r
 :::: {.columns}
 
 ::: {.column width="50%"}
-
 ::: {.info-card}
-### ⚡ Integração Simples
-A API é aberta, documentada e segue padrões W3C. Equipes de desenvolvimento conseguem integrar em poucas horas com SDKs disponíveis nas principais linguagens.
+### Conformidade com a Lei 15.211/25
+Atenda aos requisitos do ECA Digital com um mecanismo reconhecido, baseado em padrão técnico aberto e auditável.
 :::
-
 :::
 
 ::: {.column width="50%"}
-
 ::: {.info-card}
-### 🇧🇷 Infraestrutura Nacional
-Baseado na identidade digital do governo federal, com alta disponibilidade e suporte técnico. Sem dependência de fornecedores privados estrangeiros.
+### Infraestrutura nacional
+Baseado na identidade digital do gov.br, com 173 milhões de contas cadastradas. Sem dependência de fornecedores estrangeiros.
 :::
-
 :::
 
 ::::
 
-## Como funciona a integração
+## Como funciona na prática
 
-O fluxo técnico é simples e não exige modificações profundas na sua arquitetura:
+Do ponto de vista do seu negócio, o fluxo é simples:
 
-1. **Usuário inicia** o processo de acesso ao conteúdo restrito na sua plataforma
-2. **Sua plataforma** gera um desafio de verificação e redireciona para o wallet do usuário
-3. **Usuário apresenta** sua Credencial de Verificação de Idade ao seu sistema
-4. **Sua plataforma recebe** apenas o resultado: `{ "maior_de_18": true }` com assinatura criptográfica verificável
-5. **Acesso concedido** — sem nenhum dado pessoal trafegado
+1. Seu usuário tenta acessar um conteúdo ou serviço com restrição de idade
+2. Sua plataforma solicita a verificação
+3. O usuário confirma no próprio celular, usando a credencial que já obteve pelo gov.br
+4. Sua plataforma recebe apenas **"maior de 18: sim"** — nada mais
 
-## Casos de uso comuns
+Nenhum CPF, nenhuma foto, nenhum dado pessoal passa pela sua plataforma. A verificação é feita entre o usuário e o governo; você recebe apenas o resultado.
 
-- Plataformas de streaming com conteúdo para adultos
-- E-commerces que vendem produtos com restrição de idade (bebidas, tabaco, etc.)
-- Plataformas de jogos e apostas online
-- Aplicativos de relacionamento
-- Serviços financeiros com restrição etária
+A integração técnica é feita pela sua equipe de desenvolvimento. [Veja a documentação técnica →](desenvolvedor.html)
 
-## Modelos de integração disponíveis
+## Casos de uso por setor
 
-| Tipo | Descrição | Indicado para |
-|------|-----------|---------------|
-| **Redirect Flow** | Usuário é redirecionado ao wallet e retorna com prova | Web apps |
-| **Deep Link** | Abertura direta do app gov.br no mobile | Apps móveis |
-| **QR Code** | Usuário escaneia QR e confirma no celular | Ambientes físicos/híbridos |
+::: {.use-case}
+**E-commerce (bebidas, tabaco, produtos controlados)**
+Cumpra a exigência de verificação etária sem criar fluxos de coleta de documentos, reduzindo fricção na navegação de prudutos em exposição. 
+:::
 
-## Próximos passos
+::: {.use-case}
+**Games e plataformas digitais**
+Atenda às exigências do ECA Digital para jogos com classificação etária sem onboarding complexo para usuários adultos.
+:::
 
-Acesse a documentação técnica completa para desenvolvedores e o ambiente de testes (sandbox).
+::: {.use-case}
+**Aplicativos de relacionamento**
+Implemente verificação etária obrigatória cumprindo a lei sem construir uma base de documentos dos seus usuários.
+:::
 
-[Ver documentação técnica →](desenvolvedor.html){.btn-primary-govbr}
+::: {.use-case}
+**Serviços financeiros com restrição etária**
+Adicione uma camada de verificação etária complementar ao seu processo de onboarding regulatório existente.
+:::
+
+## Como sua plataforma pode integrar
+
+A infraestrutura funciona em três cenários principais:
+
+| Cenário | Como funciona |
+|---|---|
+| **Site ou web app** | Usuário é redirecionado brevemente ao wallet e retorna com a confirmação |
+| **App mobile** | Abertura direta do app gov.br no celular do usuário |
+| **Ambiente físico ou híbrido** | Usuário escaneia um QR code e confirma no celular |
+
+## Perguntas frequentes
+
+**E se o meu usuário não tiver conta no gov.br?**
+A credencial exige conta gov.br nos níveis Prata ou Ouro. Usuários sem esse cadastro precisarão criá-lo. O processo é gratuito e leva alguns minutos. 
+
+**Preciso assinar algum contrato ou termo de adesão?**
+O modelo de adesão está sendo definido durante a fase de testes. Plataformas interessadas em participar do piloto devem entrar em contato com a equipe.
+
+**Qual é a disponibilidade da infraestrutura?**
+O SLA formal será publicado antes da abertura pública. Durante a fase de testes, a infraestrutura opera com monitoramento contínuo pela equipe técnica da Dataprev.
+
+**A solução pode ser usada junto com outras formas de verificação que já uso?**
+Sim. A Verificação de Idade com Credenciais Verificáveis pode ser adicionada como uma opção dentro de um fluxo que já inclui outras soluções, sem substituição obrigatória.
+
+**Como funciona durante o período de testes?**
+O acesso ao ambiente de sandbox está disponível para desenvolvedores desde já. Plataformas que queiram integrar em produção durante o piloto devem manifestar interesse pelo formulário abaixo.
+
+::: {.cta-block}
+[Quero participar do piloto →](contato.html#piloto){.btn-primary-govbr}
+[Ver documentação técnica →](desenvolvedor.html){.btn-secondary}
+
+:::
 
 :::
