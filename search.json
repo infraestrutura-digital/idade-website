@@ -126,60 +126,11 @@
     "text": "Início / Sou Desenvolvedor\n\n\n\n\nDocumentação técnica completa, SDKs e ambiente de testes para integrar a Verificação de Idade na sua aplicação."
   },
   {
-    "objectID": "desenvolvedor.html#visão-geral-da-arquitetura",
-    "href": "desenvolvedor.html#visão-geral-da-arquitetura",
-    "title": "Sou Desenvolvedor",
-    "section": "Visão Geral da Arquitetura",
-    "text": "Visão Geral da Arquitetura\nA Verificação de Idade é baseada no protocolo W3C Verifiable Credentials combinado com Decentralized Identifiers (DIDs). O fluxo segue o padrão OpenID4VP (OpenID for Verifiable Presentations).\nUsuário (Holder)          Verifier (sua app)         Issuer (gov.br)\n     │                          │                          │\n     │  1. Solicitar acesso      │                          │\n     │ ─────────────────────►   │                          │\n     │                          │                          │\n     │  2. Presentation Request  │                          │\n     │ ◄─────────────────────   │                          │\n     │                          │                          │\n     │  3. Apresentar VC         │                          │\n     │ ─────────────────────►   │                          │\n     │                          │  4. Verificar assinatura  │\n     │                          │ ─────────────────────►   │\n     │                          │                          │\n     │                          │  5. Confirmação           │\n     │                          │ ◄─────────────────────   │\n     │  6. Acesso concedido      │                          │\n     │ ◄─────────────────────   │                          │"
-  },
-  {
-    "objectID": "desenvolvedor.html#padrões-e-especificações",
-    "href": "desenvolvedor.html#padrões-e-especificações",
-    "title": "Sou Desenvolvedor",
-    "section": "Padrões e Especificações",
-    "text": "Padrões e Especificações\nA infraestrutura é construída sobre os seguintes padrões abertos:\n\nW3C Verifiable Credentials Data Model 2.0 — estrutura dos atributos verificáveis\nW3C Decentralized Identifiers (DIDs) v1.0 — identificação descentralizada\nOpenID for Verifiable Presentations (OID4VP) — protocolo de apresentação\nSD-JWT (Selective Disclosure JWT) — divulgação seletiva de atributos\nBBS+ Signatures — assinaturas de divulgação seletiva com prova de conhecimento zero"
-  },
-  {
-    "objectID": "desenvolvedor.html#estrutura-da-credencial",
-    "href": "desenvolvedor.html#estrutura-da-credencial",
-    "title": "Sou Desenvolvedor",
-    "section": "Estrutura da Credencial",
-    "text": "Estrutura da Credencial\n{\n  \"@context\": [\n    \"https://www.w3.org/2018/credentials/v1\",\n    \"https://idade.infraestrutura.digital/context/v1\"\n  ],\n  \"type\": [\"VerifiableCredential\", \"AgeVerificationCredential\"],\n  \"issuer\": \"did:web:infraestrutura.digital\",\n  \"issuanceDate\": \"2024-01-15T00:00:00Z\",\n  \"expirationDate\": \"2025-01-15T00:00:00Z\",\n  \"credentialSubject\": {\n    \"id\": \"did:key:z6Mk...\",\n    \"ageOver18\": true\n  },\n  \"proof\": {\n    \"type\": \"BbsBlsSignature2020\",\n    \"created\": \"2024-01-15T00:00:00Z\",\n    \"verificationMethod\": \"did:web:infraestrutura.digital#key-1\",\n    \"proofPurpose\": \"assertionMethod\",\n    \"proofValue\": \"...\"\n  }\n}"
-  },
-  {
-    "objectID": "desenvolvedor.html#endpoint-de-verificação",
-    "href": "desenvolvedor.html#endpoint-de-verificação",
-    "title": "Sou Desenvolvedor",
-    "section": "Endpoint de Verificação",
-    "text": "Endpoint de Verificação\n\nPOST /api/v1/verify\nValida uma Verifiable Presentation recebida do usuário.\nRequest:\n{\n  \"vp_token\": \"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9...\",\n  \"presentation_submission\": {\n    \"id\": \"...\",\n    \"definition_id\": \"age-verification-request\",\n    \"descriptor_map\": [...]\n  }\n}\nResponse 200 OK:\n{\n  \"verified\": true,\n  \"age_over_18\": true,\n  \"issued_by\": \"gov.br\",\n  \"credential_expires\": \"2025-01-15T00:00:00Z\"\n}\nResponse 400 — Credencial inválida:\n{\n  \"verified\": false,\n  \"error\": \"INVALID_PROOF\",\n  \"message\": \"A assinatura da credencial é inválida ou expirou.\"\n}"
-  },
-  {
-    "objectID": "desenvolvedor.html#sdks-disponíveis",
-    "href": "desenvolvedor.html#sdks-disponíveis",
-    "title": "Sou Desenvolvedor",
-    "section": "SDKs Disponíveis",
-    "text": "SDKs Disponíveis\n\n\n\n\n\n\n\n\nLinguagem\nRepositório\nStatus\n\n\n\n\nJavaScript / TypeScript\n@cipd/age-verification-js\n✅ Estável\n\n\nPython\ncipd-age-verification\n✅ Estável\n\n\nJava / Kotlin\nbr.gov.cipd:age-verification\n🔄 Beta\n\n\nGo\ngithub.com/cipd/age-verification-go\n🔄 Beta"
-  },
-  {
-    "objectID": "desenvolvedor.html#ambiente-sandbox",
-    "href": "desenvolvedor.html#ambiente-sandbox",
-    "title": "Sou Desenvolvedor",
-    "section": "Ambiente Sandbox",
-    "text": "Ambiente Sandbox\nUse o ambiente de testes para integrar sem impacto em produção:\n\nBase URL: https://sandbox.idade.infraestrutura.digital\nDID do Emissor (Sandbox): did:web:sandbox.infraestrutura.digital\nCredenciais de teste: geradas automaticamente pelo CLI de testes\n\n# Instalar CLI de testes\nnpm install -g @cipd/age-verification-cli\n\n# Gerar credencial de teste\ncipd-age-verify generate-test-credential --did did:key:z6Mk...\n\n# Simular fluxo completo\ncipd-age-verify simulate-flow --verifier-url https://meuapp.com.br"
-  },
-  {
-    "objectID": "desenvolvedor.html#requisitos-de-segurança",
-    "href": "desenvolvedor.html#requisitos-de-segurança",
-    "title": "Sou Desenvolvedor",
-    "section": "Requisitos de Segurança",
-    "text": "Requisitos de Segurança\n\n\n\n\n\n\nImportantNão armazene o vp_token\n\n\n\nO token de apresentação é de uso único e não deve ser armazenado. Seu sistema deve armazenar apenas o resultado da verificação (verified: true/false) com carimbo de tempo.\n\n\n\n\n\n\n\n\nNoteRotação de chaves\n\n\n\nO emissor rotaciona suas chaves de assinatura periodicamente. Seu sistema deve buscar o documento DID atualizado a cada verificação, nunca cachear a chave por mais de 24 horas."
-  },
-  {
     "objectID": "desenvolvedor.html#suporte-técnico",
     "href": "desenvolvedor.html#suporte-técnico",
     "title": "Sou Desenvolvedor",
     "section": "Suporte técnico",
-    "text": "Suporte técnico\nPara dúvidas técnicas, abra uma issue no repositório oficial ou envie e-mail para dev@infraestrutura.digital.\nAcessar repositório no GitHub →"
+    "text": "Suporte técnico\nPara dúvidas técnicas, abra uma issue no repositório oficial.\nAcessar repositório no GitHub →"
   },
   {
     "objectID": "como-funciona/como-funciona.html",
