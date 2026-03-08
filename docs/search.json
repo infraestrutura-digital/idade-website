@@ -2,114 +2,121 @@
   {
     "objectID": "jornalista.html",
     "href": "jornalista.html",
-    "title": "Sou Jornalista / Pesquisador / Gestor",
+    "title": "Sou Jornalista / Pesquisador / Gestor — Contexto, dados e cobertura do projeto",
     "section": "",
-    "text": "Início / Sou Jornalista / Pesquisador/ Gestor\n\n\n\n\nInformações sobre o contexto, impacto e dados do projeto Verificação de Idade para cobertura jornalística e gestão pública."
+    "text": "Início / Sou Jornalista / Pesquisador / Gestor\n\n\n\n\nContexto político e técnico, dados de impacto, comparações internacionais e materiais de apoio para cobertura jornalística, pesquisa acadêmica e gestão pública."
+  },
+  {
+    "objectID": "jornalista.html#por-que-isso-é-uma-notícia",
+    "href": "jornalista.html#por-que-isso-é-uma-notícia",
+    "title": "Sou Jornalista / Pesquisador / Gestor — Contexto, dados e cobertura do projeto",
+    "section": "Por que isso é uma notícia",
+    "text": "Por que isso é uma notícia\nEste projeto representa uma mudança de lógica na forma como o Estado brasileiro lida com identidade digital, e tem pelo menos três ângulos relevantes para cobertura:\nPrivacidade vs. vigilância. As soluções hoje disponíveis no mercado para verificação etária podem exigir que o cidadão entregue CPF, foto de documento ou dados biométricos sem que isso seja realmente necessário. Este projeto inverte essa lógica: a verificação acontece sem que nenhuma informação pessoal seja transferida.\nSoberania tecnológica. O Brasil desenvolve sua própria infraestrutura de identidade digital baseada em código aberto e padrões internacionais, em área que toca diretamente direitos fundamentais.\nImpacto econômico para pequenos negócios. A Lei 15.211/25 impõe obrigações de verificação etária a plataformas digitais. As soluções comerciais disponíveis podem ter custo alto para micro e pequenas empresas. Este projeto oferece uma alternativa pública e gratuita."
   },
   {
     "objectID": "jornalista.html#o-que-é-o-projeto",
     "href": "jornalista.html#o-que-é-o-projeto",
-    "title": "Sou Jornalista / Pesquisador / Gestor",
+    "title": "Sou Jornalista / Pesquisador / Gestor — Contexto, dados e cobertura do projeto",
     "section": "O que é o projeto",
-    "text": "O que é o projeto\nA Verificação de Idade é uma iniciativa do Centro de Infraestruturas Públicas Digitais (CIPD), órgão do governo federal brasileiro, que desenvolve infraestruturas abertas para a sociedade digital.\nO projeto cria um mecanismo técnico que permite que plataformas digitais verifiquem se um usuário é maior de 18 anos sem receber qualquer dado pessoal do cidadão — nem nome, nem CPF, nem qualquer identificador."
+    "text": "O que é o projeto\nA Verificação de Idade com Credenciais Verificáveis é uma iniciativa do Ministério da Gestão e da Inovação em Serviços Públicos (MGI) que cria um mecanismo técnico pelo qual plataformas digitais podem confirmar que um usuário é maior de 18 anos sem receber qualquer dado pessoal do cidadão: nem nome, nem CPF, nem qualquer identificador.\nA infraestrutura é pública, gratuita e baseada em código aberto. O emissor das credenciais é o gov.br, plataforma que já conta com 173 milhões de contas cadastradas e serve como identidade digital oficial do cidadão brasileiro."
   },
   {
     "objectID": "jornalista.html#por-que-esse-projeto-existe",
     "href": "jornalista.html#por-que-esse-projeto-existe",
-    "title": "Sou Jornalista / Pesquisador / Gestor",
+    "title": "Sou Jornalista / Pesquisador / Gestor — Contexto, dados e cobertura do projeto",
     "section": "Por que esse projeto existe",
-    "text": "Por que esse projeto existe\nO crescimento do acesso de crianças e adolescentes a conteúdos inapropriados na internet se tornou um desafio regulatório em dezenas de países. No Brasil, o Estatuto da Criança e do Adolescente (ECA) e o Marco Civil da Internet já estabelecem responsabilidades para plataformas, mas faltava uma infraestrutura técnica que tornasse a verificação viável sem comprometer a privacidade dos usuários.\nSoluções anteriores, como o envio de CPF ou foto de documento para plataformas privadas, apresentam graves riscos:\n\nCriação de bancos de dados centralizados vulneráveis a vazamentos\nTransferência de dados sensíveis a empresas estrangeiras\nVigilância e rastreamento dos hábitos de navegação dos cidadãos\n\nA Verificação de Idade resolve esse problema com tecnologia criptográfica de ponta."
-  },
-  {
-    "objectID": "jornalista.html#comparação-com-soluções-internacionais",
-    "href": "jornalista.html#comparação-com-soluções-internacionais",
-    "title": "Sou Jornalista / Pesquisador / Gestor",
-    "section": "Comparação com soluções internacionais",
-    "text": "Comparação com soluções internacionais\n\n\n\n\n\n\n\n\n\nPaís\nSolução\nPrivacidade\nSoberania\n\n\n\n\nReino Unido\nAge Verification por documento\n❌ Baixa\n❌ Depende de empresas privadas\n\n\nFrança\nVerificação por operadora móvel\n⚠️ Parcial\n⚠️ Parcial\n\n\nUE (proposta)\nEUDI Wallet\n✅ Alta\n✅ Alta\n\n\nBrasil\nCredencial Verificável gov.br\n✅ Alta\n✅ Alta"
-  },
-  {
-    "objectID": "jornalista.html#cronograma-e-marcos",
-    "href": "jornalista.html#cronograma-e-marcos",
-    "title": "Sou Jornalista / Pesquisador / Gestor",
-    "section": "Cronograma e marcos",
-    "text": "Cronograma e marcos\n\n2023 — Início das pesquisas e desenvolvimento do padrão técnico\n2024 T1 — Publicação da especificação técnica aberta\n2024 T2 — Lançamento do ambiente de sandbox para desenvolvedores\n2024 T3 — Piloto com plataformas parceiras\n2025 — Lançamento público da infraestrutura"
+    "text": "Por que esse projeto existe\nO crescimento do acesso de crianças e adolescentes a conteúdos inapropriados na internet tornou-se um desafio regulatório em dezenas de países. No Brasil, a Lei 15.211/25 (ECA Digital) estabelece obrigações concretas para plataformas digitais, mas deixa em aberto como verificar a idade sem criar novos riscos de privacidade.\nAs credenciais verificáveis resolvem a verificação etária, com criptografia de ponta: especificamente com Provas de Conhecimento Zero (Zero-Knowledge Proofs), que permitem confirmar um fato (“é maior de 18 anos”) sem revelar nenhuma informação subjacente."
   },
   {
     "objectID": "jornalista.html#dados-e-estatísticas",
     "href": "jornalista.html#dados-e-estatísticas",
-    "title": "Sou Jornalista / Pesquisador / Gestor",
+    "title": "Sou Jornalista / Pesquisador / Gestor — Contexto, dados e cobertura do projeto",
     "section": "Dados e estatísticas",
-    "text": "Dados e estatísticas\n\nCenário atual (IBGE / CGI.br)\n\n95% das crianças de 9 a 17 anos usam a internet regularmente\n78% acessam conteúdos sem qualquer restrição etária efetiva\nMais de 40 países já aprovaram ou discutem leis de verificação de idade online"
+    "text": "Dados e estatísticas\n\nContexto de uso da internet por crianças e adolescentes no Brasil\n\n95% das crianças de 9 a 17 anos usam a internet regularmente — CGI.br, TIC Kids Online Brasil 2023\n78% acessam conteúdos sem qualquer restrição etária efetiva — CGI.br, 2023\nMais de 40 países já aprovaram ou discutem legislação de verificação de idade online\n\n\n\nImpacto econômico estimado\n\nSoluções comerciais de verificação etária podem ter valor inviável para MPEs com alto volume de acessos\nO Brasil tem mais de 20 milhões de micro e pequenas empresas com presença digital, número que tende a aumentar SEBRAE, 2025\nA infraestrutura pública elimina esse custo para plataformas que aderirem ao ecossistema"
+  },
+  {
+    "objectID": "jornalista.html#comparação-com-soluções-internacionais",
+    "href": "jornalista.html#comparação-com-soluções-internacionais",
+    "title": "Sou Jornalista / Pesquisador / Gestor — Contexto, dados e cobertura do projeto",
+    "section": "Comparação com soluções internacionais",
+    "text": "Comparação com soluções internacionais\nA proposta brasileira é tecnicamente comparável à iniciativa europeia e, em alguns aspectos, mais direta na implementação por ancorar-se numa infraestrutura de identidade digital (gov.br) já existente e em escala nacional. Países como a França, a Bélgica e a Itália também fazem pilotos para verificação etária com credenciais verificáveis."
+  },
+  {
+    "objectID": "jornalista.html#fases-do-projeto",
+    "href": "jornalista.html#fases-do-projeto",
+    "title": "Sou Jornalista / Pesquisador / Gestor — Contexto, dados e cobertura do projeto",
+    "section": "Fases do projeto",
+    "text": "Fases do projeto\nO projeto segue um modelo de implantação gradual, priorizando estabilidade técnica e confiança pública sobre velocidade de expansão:\n\nFase 0 — Desenvolvimento da especificação técnica e publicação do código no GitHub\nFase 1 — MVP com público restrito e plataformas parceiras (em andamento)\nFase 2 — Expansão para pilotos estratégicos por setor\nFase 3 — Abertura do Registro de Confiança para emissores certificados além do gov.br\nFase 4 — Disponibilização ampla e integração com carteiras de mercado"
   },
   {
     "objectID": "jornalista.html#equipe-e-parceiros",
     "href": "jornalista.html#equipe-e-parceiros",
-    "title": "Sou Jornalista / Pesquisador / Gestor",
+    "title": "Sou Jornalista / Pesquisador / Gestor — Contexto, dados e cobertura do projeto",
     "section": "Equipe e parceiros",
-    "text": "Equipe e parceiros\nO projeto é desenvolvido pelo Centro de Infraestruturas Públicas Digitais em colaboração com:\n\nSecretaria de Governo Digital (SGD) / MPOG\nAutoridade Nacional de Proteção de Dados (ANPD)\nMinistério da Justiça e Segurança Pública\nLaboratório de Políticas Públicas e Internet (LAPIN)\nW3C Brasil"
+    "text": "Equipe e parceiros\nO projeto é desenvolvido pelo Ministério da Gestão e da Inovação em Serviços Públicos (MGI) com os seguintes atores no ecossistema:\n\n\n\n\n\n\n\nParceiro\nPapel\n\n\n\n\nSecretaria de Governo Digital (SGD)\nCoordenação estratégica e supervisão técnica\n\n\nDataprev\nDesenvolvimento e operação da infraestrutura\n\n\nAutoridade Nacional de Proteção de Dados (ANPD)\nConsulta regulatória e validação de conformidade com a LGPD\n\n\nMinistério da Justiça e Segurança Pública\nAlinhamento com ECA Digital e políticas de proteção de crianças\n\n\nMOSIP / Inji (parceiro técnico internacional)\nPlataforma de código aberto utilizada como base tecnológica"
   },
   {
     "objectID": "jornalista.html#kit-de-imprensa",
     "href": "jornalista.html#kit-de-imprensa",
-    "title": "Sou Jornalista / Pesquisador / Gestor",
+    "title": "Sou Jornalista / Pesquisador / Gestor — Contexto, dados e cobertura do projeto",
     "section": "Kit de imprensa",
-    "text": "Kit de imprensa\nPara jornalistas, disponibilizamos materiais de apoio:\n\nFicha técnica do projeto (PDF)\nInfográficos explicativos\nContato para entrevistas com especialistas técnicos\n\nContato para imprensa: imprensa@infraestrutura.digital"
+    "text": "Kit de imprensa\n\nOs materiais abaixo estão em preparação e serão disponibilizados ao longo da Fase 1 do projeto:\n\nFicha técnica do projeto (PDF)\nInfográficos explicativos para publicação\nDescrição oficial para citação em matérias\nContato para entrevistas com especialistas técnicos e gestores do projeto\n\nContato para imprensa: [em breve]\nPara solicitações urgentes ou cobertura do piloto, entre em contato pelo formulário de imprensa →."
   },
   {
-    "objectID": "jornalista.html#perguntas-frequentes-para-a-imprensa",
-    "href": "jornalista.html#perguntas-frequentes-para-a-imprensa",
-    "title": "Sou Jornalista / Pesquisador / Gestor",
-    "section": "Perguntas frequentes para a imprensa",
-    "text": "Perguntas frequentes para a imprensa\nO projeto é obrigatório para todas as plataformas? Não. A Verificação de Idade é uma infraestrutura pública voluntária. A obrigatoriedade de verificação etária para determinados tipos de conteúdo é definida pela legislação brasileira; este projeto oferece a solução técnica para que as plataformas cumpram essas obrigações de forma privada.\nO governo saberá quais sites o cidadão acessa? Não. O emissor da credencial (gov.br) não é notificado quando o cidadão apresenta a credencial a uma plataforma. O fluxo é tecnicamente projetado para impedir esse rastreamento.\nQuanto custará para o cidadão? Zero. A obtenção e uso da credencial é totalmente gratuita para cidadãos.\nAcessar FAQ completo →"
+    "objectID": "jornalista.html#perguntas-frequentes",
+    "href": "jornalista.html#perguntas-frequentes",
+    "title": "Sou Jornalista / Pesquisador / Gestor — Contexto, dados e cobertura do projeto",
+    "section": "Perguntas frequentes",
+    "text": "Perguntas frequentes\nO projeto é obrigatório para todas as plataformas? Não. A Verificação de Idade é uma infraestrutura pública de adesão voluntária. A obrigatoriedade de verificar a idade dos usuários é determinada pela Lei 15.211/25; este projeto oferece a solução técnica para que plataformas cumpram essa obrigação de forma que respeita a privacidade do cidadão.\nQual é a diferença entre isso e simplesmente pedir o CPF? Quando uma plataforma pede o CPF, ela recebe e armazena um dado pessoal sensível, criando responsabilidade legal, risco de vazamento e potencial de rastreamento. Com a Credencial Verificável, a plataforma recebe apenas uma confirmação criptográfica (“maior de 18: sim”), sem nenhum dado identificável. É tecnicamente impossível rastrear o cidadão a partir dessa resposta.\nO governo conseguirá saber quais sites o cidadão acessa? Não. O gov.br emite a credencial, mas não é notificado quando ela é apresentada a uma plataforma. A arquitetura do sistema foi projetada especificamente para impedir esse rastreamento, inclusive por parte do governo emissor. O objetivo é permitir a liberdade de navegação sem rastreamento para todas as pessoas usuárias do gov.br\nQuanto custa para o cidadão? Zero. A obtenção e o uso da credencial são inteiramente gratuitos para cidadãos brasileiros com conta no gov.br nos níveis Prata ou Ouro.\nO projeto foi validado pela ANPD? A ANPD participa do ecossistema do projeto como parceira em consulta regulatória. A validação formal de conformidade com a LGPD está prevista para as fases subsequentes ao MVP.\nAcessar documentação técnica → Falar com a equipe →"
   },
   {
     "objectID": "negocio.html",
     "href": "negocio.html",
-    "title": "Sou Negócio",
+    "title": "Sou Negócio — Verificação etária sem coletar dados dos seus usuários",
     "section": "",
-    "text": "Início / Sou Negócio\n\n\n\n\nIntegre a Verificação de Idade na sua plataforma de forma simples, segura e em conformidade com a legislação brasileira."
+    "text": "Início / Sou Negócio\n\n\n\n\nUma infraestrutura pública e gratuita para verificar a idade dos seus usuários sem que sua plataforma precise coletar dados pessoais."
   },
   {
-    "objectID": "negocio.html#por-que-integrar-a-verificação-de-idade",
-    "href": "negocio.html#por-que-integrar-a-verificação-de-idade",
-    "title": "Sou Negócio",
-    "section": "Por que integrar a Verificação de Idade?",
-    "text": "Por que integrar a Verificação de Idade?\nPlataformas que disponibilizam conteúdo ou serviços voltados a adultos têm a responsabilidade legal de garantir que menores de 18 anos não tenham acesso. A Verificação de Idade oferece a forma mais segura, privada e juridicamente robusta de cumprir essa obrigação."
+    "objectID": "negocio.html#uma-nova-opção-para-o-mercado",
+    "href": "negocio.html#uma-nova-opção-para-o-mercado",
+    "title": "Sou Negócio — Verificação etária sem coletar dados dos seus usuários",
+    "section": "Uma nova opção para o mercado",
+    "text": "Uma nova opção para o mercado\nA Lei 15.211/25 (ECA Digital) criou obrigações reais de verificação etária para plataformas digitais brasileiras. Cumprir essa exigência, até agora, exigia contratar soluções de mercado com custo por verificação, o que funciona bem para grandes plataformas, mas pode representar uma barreira significativa para micro e pequenas empresas.\nA Verificação de Idade com Credenciais Verificáveis é uma infraestrutura pública que torna esse compliance acessível para qualquer tamanho de negócio, de forma gratuita, sem que sua plataforma precise armazenar ou processar dados pessoais dos usuários."
   },
   {
-    "objectID": "negocio.html#vantagens-para-o-seu-negócio",
-    "href": "negocio.html#vantagens-para-o-seu-negócio",
-    "title": "Sou Negócio",
-    "section": "Vantagens para o seu negócio",
-    "text": "Vantagens para o seu negócio\n\n\n\n✅ Conformidade Legal\nAtenda aos requisitos do ECA, do Marco Civil da Internet e das normas de proteção de menores sem necessidade de coletar dados adicionais dos seus usuários.\n\n\n\n🔒 Sem Responsabilidade sobre Dados\nComo a verificação é feita pelo usuário diretamente, sua plataforma não recebe nem armazena dados sensíveis. Isso reduz drasticamente sua exposição à LGPD.\n\n\n\n\n\n\n⚡ Integração Simples\nA API é aberta, documentada e segue padrões W3C. Equipes de desenvolvimento conseguem integrar em poucas horas com SDKs disponíveis nas principais linguagens.\n\n\n\n🇧🇷 Infraestrutura Nacional\nBaseado na identidade digital do governo federal, com alta disponibilidade e suporte técnico. Sem dependência de fornecedores privados estrangeiros."
+    "objectID": "negocio.html#o-que-muda-para-o-seu-negócio",
+    "href": "negocio.html#o-que-muda-para-o-seu-negócio",
+    "title": "Sou Negócio — Verificação etária sem coletar dados dos seus usuários",
+    "section": "O que muda para o seu negócio",
+    "text": "O que muda para o seu negócio\n\n\n\nCusto zero de infraestrutura\nA plataforma é pública e gratuita para negócios de qualquer porte. Você paga apenas pelo desenvolvimento da integração uma vez.\n\n\n\nSem responsabilidade sobre dados sensíveis\nSua plataforma não recebe nem armazena CPF, foto de documento ou qualquer dado pessoal. Isso reduz drasticamente sua exposição à LGPD.\n\n\n\n\n\n\nConformidade com a Lei 15.211/25\nAtenda aos requisitos do ECA Digital com um mecanismo reconhecido, baseado em padrão técnico aberto e auditável.\n\n\n\nInfraestrutura nacional\nBaseado na identidade digital do gov.br, com 173 milhões de contas cadastradas. Sem dependência de fornecedores estrangeiros."
   },
   {
-    "objectID": "negocio.html#como-funciona-a-integração",
-    "href": "negocio.html#como-funciona-a-integração",
-    "title": "Sou Negócio",
-    "section": "Como funciona a integração",
-    "text": "Como funciona a integração\nO fluxo técnico é simples e não exige modificações profundas na sua arquitetura:\n\nUsuário inicia o processo de acesso ao conteúdo restrito na sua plataforma\nSua plataforma gera um desafio de verificação e redireciona para o wallet do usuário\nUsuário apresenta sua Credencial de Verificação de Idade ao seu sistema\nSua plataforma recebe apenas o resultado: { \"maior_de_18\": true } com assinatura criptográfica verificável\nAcesso concedido — sem nenhum dado pessoal trafegado"
+    "objectID": "negocio.html#como-funciona-na-prática",
+    "href": "negocio.html#como-funciona-na-prática",
+    "title": "Sou Negócio — Verificação etária sem coletar dados dos seus usuários",
+    "section": "Como funciona na prática",
+    "text": "Como funciona na prática\nDo ponto de vista do seu negócio, o fluxo é simples:\n\nSeu usuário tenta acessar um conteúdo ou serviço com restrição de idade\nSua plataforma solicita a verificação\nO usuário confirma no próprio celular, usando a credencial que já obteve pelo gov.br\nSua plataforma recebe apenas “maior de 18: sim” — nada mais\n\nNenhum CPF, nenhuma foto, nenhum dado pessoal passa pela sua plataforma. A verificação é feita entre o usuário e o governo; você recebe apenas o resultado.\nA integração técnica é feita pela sua equipe de desenvolvimento. Veja a documentação técnica →"
   },
   {
-    "objectID": "negocio.html#casos-de-uso-comuns",
-    "href": "negocio.html#casos-de-uso-comuns",
-    "title": "Sou Negócio",
-    "section": "Casos de uso comuns",
-    "text": "Casos de uso comuns\n\nPlataformas de streaming com conteúdo para adultos\nE-commerces que vendem produtos com restrição de idade (bebidas, tabaco, etc.)\nPlataformas de jogos e apostas online\nAplicativos de relacionamento\nServiços financeiros com restrição etária"
+    "objectID": "negocio.html#casos-de-uso-por-setor",
+    "href": "negocio.html#casos-de-uso-por-setor",
+    "title": "Sou Negócio — Verificação etária sem coletar dados dos seus usuários",
+    "section": "Casos de uso por setor",
+    "text": "Casos de uso por setor\n\nE-commerce (bebidas, tabaco, produtos controlados) Cumpra a exigência de verificação etária sem criar fluxos de coleta de documentos, reduzindo fricção na navegação de prudutos em exposição.\n\n\nGames e plataformas digitais Atenda às exigências do ECA Digital para jogos com classificação etária sem onboarding complexo para usuários adultos.\n\n\nAplicativos de relacionamento Implemente verificação etária obrigatória cumprindo a lei sem construir uma base de documentos dos seus usuários.\n\n\nServiços financeiros com restrição etária Adicione uma camada de verificação etária complementar ao seu processo de onboarding regulatório existente."
   },
   {
-    "objectID": "negocio.html#modelos-de-integração-disponíveis",
-    "href": "negocio.html#modelos-de-integração-disponíveis",
-    "title": "Sou Negócio",
-    "section": "Modelos de integração disponíveis",
-    "text": "Modelos de integração disponíveis\n\n\n\n\n\n\n\n\nTipo\nDescrição\nIndicado para\n\n\n\n\nRedirect Flow\nUsuário é redirecionado ao wallet e retorna com prova\nWeb apps\n\n\nDeep Link\nAbertura direta do app gov.br no mobile\nApps móveis\n\n\nQR Code\nUsuário escaneia QR e confirma no celular\nAmbientes físicos/híbridos"
+    "objectID": "negocio.html#como-sua-plataforma-pode-integrar",
+    "href": "negocio.html#como-sua-plataforma-pode-integrar",
+    "title": "Sou Negócio — Verificação etária sem coletar dados dos seus usuários",
+    "section": "Como sua plataforma pode integrar",
+    "text": "Como sua plataforma pode integrar\nA infraestrutura funciona em três cenários principais:\n\n\n\n\n\n\n\nCenário\nComo funciona\n\n\n\n\nSite ou web app\nUsuário é redirecionado brevemente ao wallet e retorna com a confirmação\n\n\nApp mobile\nAbertura direta do app gov.br no celular do usuário\n\n\nAmbiente físico ou híbrido\nUsuário escaneia um QR code e confirma no celular"
   },
   {
-    "objectID": "negocio.html#próximos-passos",
-    "href": "negocio.html#próximos-passos",
-    "title": "Sou Negócio",
-    "section": "Próximos passos",
-    "text": "Próximos passos\nAcesse a documentação técnica completa para desenvolvedores e o ambiente de testes (sandbox).\nVer documentação técnica →"
+    "objectID": "negocio.html#perguntas-frequentes",
+    "href": "negocio.html#perguntas-frequentes",
+    "title": "Sou Negócio — Verificação etária sem coletar dados dos seus usuários",
+    "section": "Perguntas frequentes",
+    "text": "Perguntas frequentes\nE se o meu usuário não tiver conta no gov.br? A credencial exige conta gov.br nos níveis Prata ou Ouro. Usuários sem esse cadastro precisarão criá-lo. O processo é gratuito e leva alguns minutos.\nPreciso assinar algum contrato ou termo de adesão? O modelo de adesão está sendo definido durante a fase de testes. Plataformas interessadas em participar do piloto devem entrar em contato com a equipe.\nQual é a disponibilidade da infraestrutura? O SLA formal será publicado antes da abertura pública. Durante a fase de testes, a infraestrutura opera com monitoramento contínuo pela equipe técnica da Dataprev.\nA solução pode ser usada junto com outras formas de verificação que já uso? Sim. A Verificação de Idade com Credenciais Verificáveis pode ser adicionada como uma opção dentro de um fluxo que já inclui outras soluções, sem substituição obrigatória.\nComo funciona durante o período de testes? O acesso ao ambiente de sandbox está disponível para desenvolvedores desde já. Plataformas que queiram integrar em produção durante o piloto devem manifestar interesse pelo formulário abaixo.\n\nQuero participar do piloto → Ver documentação técnica →"
   },
   {
     "objectID": "desenvolvedor.html",
@@ -117,62 +124,6 @@
     "title": "Sou Desenvolvedor",
     "section": "",
     "text": "Início / Sou Desenvolvedor\n\n\n\n\nDocumentação técnica completa, SDKs e ambiente de testes para integrar a Verificação de Idade na sua aplicação."
-  },
-  {
-    "objectID": "desenvolvedor.html#visão-geral-da-arquitetura",
-    "href": "desenvolvedor.html#visão-geral-da-arquitetura",
-    "title": "Sou Desenvolvedor",
-    "section": "Visão Geral da Arquitetura",
-    "text": "Visão Geral da Arquitetura\nA Verificação de Idade é baseada no protocolo W3C Verifiable Credentials combinado com Decentralized Identifiers (DIDs). O fluxo segue o padrão OpenID4VP (OpenID for Verifiable Presentations).\nUsuário (Holder)          Verifier (sua app)         Issuer (gov.br)\n     │                          │                          │\n     │  1. Solicitar acesso      │                          │\n     │ ─────────────────────►   │                          │\n     │                          │                          │\n     │  2. Presentation Request  │                          │\n     │ ◄─────────────────────   │                          │\n     │                          │                          │\n     │  3. Apresentar VC         │                          │\n     │ ─────────────────────►   │                          │\n     │                          │  4. Verificar assinatura  │\n     │                          │ ─────────────────────►   │\n     │                          │                          │\n     │                          │  5. Confirmação           │\n     │                          │ ◄─────────────────────   │\n     │  6. Acesso concedido      │                          │\n     │ ◄─────────────────────   │                          │"
-  },
-  {
-    "objectID": "desenvolvedor.html#padrões-e-especificações",
-    "href": "desenvolvedor.html#padrões-e-especificações",
-    "title": "Sou Desenvolvedor",
-    "section": "Padrões e Especificações",
-    "text": "Padrões e Especificações\nA infraestrutura é construída sobre os seguintes padrões abertos:\n\nW3C Verifiable Credentials Data Model 2.0 — estrutura dos atributos verificáveis\nW3C Decentralized Identifiers (DIDs) v1.0 — identificação descentralizada\nOpenID for Verifiable Presentations (OID4VP) — protocolo de apresentação\nSD-JWT (Selective Disclosure JWT) — divulgação seletiva de atributos\nBBS+ Signatures — assinaturas de divulgação seletiva com prova de conhecimento zero"
-  },
-  {
-    "objectID": "desenvolvedor.html#estrutura-da-credencial",
-    "href": "desenvolvedor.html#estrutura-da-credencial",
-    "title": "Sou Desenvolvedor",
-    "section": "Estrutura da Credencial",
-    "text": "Estrutura da Credencial\n{\n  \"@context\": [\n    \"https://www.w3.org/2018/credentials/v1\",\n    \"https://idade.infraestrutura.digital/context/v1\"\n  ],\n  \"type\": [\"VerifiableCredential\", \"AgeVerificationCredential\"],\n  \"issuer\": \"did:web:infraestrutura.digital\",\n  \"issuanceDate\": \"2024-01-15T00:00:00Z\",\n  \"expirationDate\": \"2025-01-15T00:00:00Z\",\n  \"credentialSubject\": {\n    \"id\": \"did:key:z6Mk...\",\n    \"ageOver18\": true\n  },\n  \"proof\": {\n    \"type\": \"BbsBlsSignature2020\",\n    \"created\": \"2024-01-15T00:00:00Z\",\n    \"verificationMethod\": \"did:web:infraestrutura.digital#key-1\",\n    \"proofPurpose\": \"assertionMethod\",\n    \"proofValue\": \"...\"\n  }\n}"
-  },
-  {
-    "objectID": "desenvolvedor.html#endpoint-de-verificação",
-    "href": "desenvolvedor.html#endpoint-de-verificação",
-    "title": "Sou Desenvolvedor",
-    "section": "Endpoint de Verificação",
-    "text": "Endpoint de Verificação\n\nPOST /api/v1/verify\nValida uma Verifiable Presentation recebida do usuário.\nRequest:\n{\n  \"vp_token\": \"eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9...\",\n  \"presentation_submission\": {\n    \"id\": \"...\",\n    \"definition_id\": \"age-verification-request\",\n    \"descriptor_map\": [...]\n  }\n}\nResponse 200 OK:\n{\n  \"verified\": true,\n  \"age_over_18\": true,\n  \"issued_by\": \"gov.br\",\n  \"credential_expires\": \"2025-01-15T00:00:00Z\"\n}\nResponse 400 — Credencial inválida:\n{\n  \"verified\": false,\n  \"error\": \"INVALID_PROOF\",\n  \"message\": \"A assinatura da credencial é inválida ou expirou.\"\n}"
-  },
-  {
-    "objectID": "desenvolvedor.html#sdks-disponíveis",
-    "href": "desenvolvedor.html#sdks-disponíveis",
-    "title": "Sou Desenvolvedor",
-    "section": "SDKs Disponíveis",
-    "text": "SDKs Disponíveis\n\n\n\n\n\n\n\n\nLinguagem\nRepositório\nStatus\n\n\n\n\nJavaScript / TypeScript\n@cipd/age-verification-js\n✅ Estável\n\n\nPython\ncipd-age-verification\n✅ Estável\n\n\nJava / Kotlin\nbr.gov.cipd:age-verification\n🔄 Beta\n\n\nGo\ngithub.com/cipd/age-verification-go\n🔄 Beta"
-  },
-  {
-    "objectID": "desenvolvedor.html#ambiente-sandbox",
-    "href": "desenvolvedor.html#ambiente-sandbox",
-    "title": "Sou Desenvolvedor",
-    "section": "Ambiente Sandbox",
-    "text": "Ambiente Sandbox\nUse o ambiente de testes para integrar sem impacto em produção:\n\nBase URL: https://sandbox.idade.infraestrutura.digital\nDID do Emissor (Sandbox): did:web:sandbox.infraestrutura.digital\nCredenciais de teste: geradas automaticamente pelo CLI de testes\n\n# Instalar CLI de testes\nnpm install -g @cipd/age-verification-cli\n\n# Gerar credencial de teste\ncipd-age-verify generate-test-credential --did did:key:z6Mk...\n\n# Simular fluxo completo\ncipd-age-verify simulate-flow --verifier-url https://meuapp.com.br"
-  },
-  {
-    "objectID": "desenvolvedor.html#requisitos-de-segurança",
-    "href": "desenvolvedor.html#requisitos-de-segurança",
-    "title": "Sou Desenvolvedor",
-    "section": "Requisitos de Segurança",
-    "text": "Requisitos de Segurança\n\n\n\n\n\n\nImportantNão armazene o vp_token\n\n\n\nO token de apresentação é de uso único e não deve ser armazenado. Seu sistema deve armazenar apenas o resultado da verificação (verified: true/false) com carimbo de tempo.\n\n\n\n\n\n\n\n\nNoteRotação de chaves\n\n\n\nO emissor rotaciona suas chaves de assinatura periodicamente. Seu sistema deve buscar o documento DID atualizado a cada verificação, nunca cachear a chave por mais de 24 horas."
-  },
-  {
-    "objectID": "desenvolvedor.html#suporte-técnico",
-    "href": "desenvolvedor.html#suporte-técnico",
-    "title": "Sou Desenvolvedor",
-    "section": "Suporte técnico",
-    "text": "Suporte técnico\nPara dúvidas técnicas, abra uma issue no repositório oficial ou envie e-mail para dev@infraestrutura.digital.\nAcessar repositório no GitHub →"
   },
   {
     "objectID": "como-funciona/como-funciona.html",
@@ -254,44 +205,51 @@
   {
     "objectID": "cidadao.html",
     "href": "cidadao.html",
-    "title": "Sou Cidadão",
+    "title": "Sou Cidadão — Verificação Etária sem expor sua identidade",
     "section": "",
-    "text": "Início / Sou Cidadão\n\n\n\n\nEntenda o que é a Verificação de Idade, como ela protege seus dados e como você pode utilizá-la no dia a dia."
+    "text": "Início / Sou Cidadão\n\n\n\n\nCada vez mais sites pedem que você prove sua idade — e para isso, pedem seu CPF, uma foto do documento ou até uma selfie. Aqui, funciona diferente.\n\n\n\n\nSou Cidadão\nSou Negócio\nSou Desenvolvedor\nSou Jornalista / Gestor\n\n\n\n\n\nCom a nova lei de proteção de crianças online (Lei 15.211/25), sites e aplicativos precisarão verificar a idade dos usuários. Esta é a forma de fazer isso sem abrir mão da sua privacidade.\n\n\n\nA Verificação de Idade é um serviço público digital que permite comprovar que você é maior de 18 anos para acessar plataformas e serviços online, sem revelar sua identidade.\nIsso é possível graças às Credenciais Verificáveis : pense como um carimbo digital no seu celular que confirma o que precisa ser confirmado, sem revelar quem você é. A tecnologia segue padrões internacionais e foi desenvolvida com código aberto, auditável por qualquer pessoa.\n\n\n\n\n\n❌ Não revela seu nome, CPF ou qualquer dado de identificação\n❌ Não rastreia quais sites você acessa\n❌ Não cria histórico das suas verificações\n❌ Não envolve empresas privadas com acesso aos seus dados\n❌ Não exige que você crie uma nova conta em nenhum serviço\n\n\n\n\n\nQualquer cidadão brasileiro, ou estrangeiro, com cadastro ativo no gov.br nos níveis Prata ou Ouro pode solicitar a credencial. O processo é gratuito e inteiramente digital. Se você ainda não tem esse nível de acesso, veja como atualizar seu cadastro no gov.br →.\n\n\n\n\n\nVocê acessa o seu aplicativo gov.br e solicita sua Credencial de Verificação de Idade. Se ainda não tem o app instalado, leva menos de 5 minutos para configurar. Veja o passo a passo →\n\n\n\nQuando um serviço exigir verificação de maioridade, você apresenta sua credencial diretamente pelo aplicativo. É como mostrar uma carteirinha, mas sem entregar nada além da informação necessária. O serviço recebe apenas a confirmação “maior de 18 anos: sim”, nada mais.\n\n\n\nVocê decide quando e para quem apresentar a credencial. Cada apresentação é feita de forma independente, sem deixar rastro.\n\n\n\n\nA Verificação de Idade foi projetada em conformidade com a Lei Geral de Proteção de Dados (LGPD) e com o ECA Digital (Lei 15.211/25), garantindo seus direitos fundamentais à privacidade e à proteção de dados pessoais. Na prática: se você usar a credencial para acessar um serviço de streaming, por exemplo, ele não pode guardar os dados dessa verificação: nem para fins publicitários, nem para rastrear seu comportamento.\nVocê tem o direito de:\n\nRevogar sua credencial a qualquer momento\nSaber como seus dados são utilizados\nNão ser discriminado por não utilizar o sistema\nTer seus dados apagados conforme previsto em lei\n\n\n\n\n\nIsso substitui o meu login no gov.br? Não. A credencial é usada apenas para comprovar faixa etária quando um site ou app solicitar. Seu login no gov.br continua funcionando normalmente.\n\n\nO governo consegue ver quais sites eu acesso? Não. A arquitetura do sistema foi projetada para que nenhum servidor central, nem do governo, saiba onde e quando você usou sua credencial.\n\n\nE se eu perder meu celular? Você pode revogar sua credencial a qualquer momento pelo gov.br e solicitar uma nova. A credencial antiga deixa de funcionar imediatamente.\n\n\nFunciona em qualquer site ou app? Por enquanto, o serviço está em fase de testes com um grupo restrito de plataformas parceiras. A expansão está prevista no Roadmap do projeto →.\n\nSaiba como obter sua credencial →"
   },
   {
     "objectID": "cidadao.html#o-que-é-a-verificação-de-idade",
     "href": "cidadao.html#o-que-é-a-verificação-de-idade",
-    "title": "Sou Cidadão",
-    "section": "O que é a Verificação de Idade?",
-    "text": "O que é a Verificação de Idade?\nA Verificação de Idade é uma infraestrutura pública digital que permite que você comprove ser maior de 18 anos para acessar plataformas e serviços online, sem revelar sua identidade.\nIsso é possível graças ao uso de Credenciais Verificáveis, uma tecnologia baseada em padrões internacionais que permite provar fatos sobre você sem expor dados desnecessários."
+    "title": "Sou Cidadão — Verificação Etária sem expor sua identidade",
+    "section": "",
+    "text": "A Verificação de Idade é um serviço público digital que permite comprovar que você é maior de 18 anos para acessar plataformas e serviços online, sem revelar sua identidade.\nIsso é possível graças às Credenciais Verificáveis : pense como um carimbo digital no seu celular que confirma o que precisa ser confirmado, sem revelar quem você é. A tecnologia segue padrões internacionais e foi desenvolvida com código aberto, auditável por qualquer pessoa."
+  },
+  {
+    "objectID": "cidadao.html#o-que-este-serviço-não-faz",
+    "href": "cidadao.html#o-que-este-serviço-não-faz",
+    "title": "Sou Cidadão — Verificação Etária sem expor sua identidade",
+    "section": "",
+    "text": "❌ Não revela seu nome, CPF ou qualquer dado de identificação\n❌ Não rastreia quais sites você acessa\n❌ Não cria histórico das suas verificações\n❌ Não envolve empresas privadas com acesso aos seus dados\n❌ Não exige que você crie uma nova conta em nenhum serviço"
+  },
+  {
+    "objectID": "cidadao.html#quem-pode-usar",
+    "href": "cidadao.html#quem-pode-usar",
+    "title": "Sou Cidadão — Verificação Etária sem expor sua identidade",
+    "section": "",
+    "text": "Qualquer cidadão brasileiro, ou estrangeiro, com cadastro ativo no gov.br nos níveis Prata ou Ouro pode solicitar a credencial. O processo é gratuito e inteiramente digital. Se você ainda não tem esse nível de acesso, veja como atualizar seu cadastro no gov.br →."
   },
   {
     "objectID": "cidadao.html#como-funciona-para-você",
     "href": "cidadao.html#como-funciona-para-você",
-    "title": "Sou Cidadão",
-    "section": "Como funciona para você",
-    "text": "Como funciona para você\n\n1. Obtenha sua credencial\nVocê acessa o aplicativo de identidade digital do governo (como o gov.br) e solicita sua Credencial de Verificação de Idade. Nenhuma informação adicional é compartilhada com terceiros.\n\n\n2. Use quando necessário\nQuando um serviço exigir verificação de maioridade, você apresenta sua credencial diretamente pelo aplicativo. O serviço recebe apenas a confirmação “maior de 18 anos: sim” — nada mais.\n\n\n3. Controle seus dados\nVocê decide quando e para quem apresentar a credencial. Nenhum banco de dados centraliza suas verificações. Cada apresentação é feita de forma independente."
-  },
-  {
-    "objectID": "cidadao.html#o-que-a-verificação-de-idade-não-faz",
-    "href": "cidadao.html#o-que-a-verificação-de-idade-não-faz",
-    "title": "Sou Cidadão",
-    "section": "O que a Verificação de Idade não faz",
-    "text": "O que a Verificação de Idade não faz\n\n❌ Não revela seu nome, CPF ou qualquer dado de identificação\n❌ Não rastreia quais sites você acessa\n❌ Não cria histórico de suas verificações\n❌ Não envolve intermediários privados com acesso aos seus dados\n❌ Não exige que você crie uma nova conta em nenhum serviço"
+    "title": "Sou Cidadão — Verificação Etária sem expor sua identidade",
+    "section": "",
+    "text": "Você acessa o seu aplicativo gov.br e solicita sua Credencial de Verificação de Idade. Se ainda não tem o app instalado, leva menos de 5 minutos para configurar. Veja o passo a passo →\n\n\n\nQuando um serviço exigir verificação de maioridade, você apresenta sua credencial diretamente pelo aplicativo. É como mostrar uma carteirinha, mas sem entregar nada além da informação necessária. O serviço recebe apenas a confirmação “maior de 18 anos: sim”, nada mais.\n\n\n\nVocê decide quando e para quem apresentar a credencial. Cada apresentação é feita de forma independente, sem deixar rastro."
   },
   {
     "objectID": "cidadao.html#seus-direitos-nesse-processo",
     "href": "cidadao.html#seus-direitos-nesse-processo",
-    "title": "Sou Cidadão",
-    "section": "Seus direitos nesse processo",
-    "text": "Seus direitos nesse processo\n\nA Verificação de Idade foi projetada para estar em conformidade com a Lei Geral de Proteção de Dados (LGPD) e com o ECA Digital, garantindo seus direitos fundamentais à privacidade e à proteção de dados pessoais.\n\nVocê tem o direito de:\n\nRevogar sua credencial a qualquer momento\nSaber como seus dados são utilizados\nNão ser discriminado por não utilizar o sistema\nTer seus dados apagados conforme previsto em lei"
+    "title": "Sou Cidadão — Verificação Etária sem expor sua identidade",
+    "section": "",
+    "text": "A Verificação de Idade foi projetada em conformidade com a Lei Geral de Proteção de Dados (LGPD) e com o ECA Digital (Lei 15.211/25), garantindo seus direitos fundamentais à privacidade e à proteção de dados pessoais. Na prática: se você usar a credencial para acessar um serviço de streaming, por exemplo, ele não pode guardar os dados dessa verificação: nem para fins publicitários, nem para rastrear seu comportamento.\nVocê tem o direito de:\n\nRevogar sua credencial a qualquer momento\nSaber como seus dados são utilizados\nNão ser discriminado por não utilizar o sistema\nTer seus dados apagados conforme previsto em lei"
   },
   {
-    "objectID": "cidadao.html#quem-pode-obter-a-credencial",
-    "href": "cidadao.html#quem-pode-obter-a-credencial",
-    "title": "Sou Cidadão",
-    "section": "Quem pode obter a credencial?",
-    "text": "Quem pode obter a credencial?\nQualquer cidadão brasileiro com cadastro ativo no gov.br nos níveis Prata ou Ouro pode solicitar a credencial. O processo é gratuito e inteiramente digital.\nSaiba como obter sua credencial →"
+    "objectID": "cidadao.html#perguntas-frequentes",
+    "href": "cidadao.html#perguntas-frequentes",
+    "title": "Sou Cidadão — Verificação Etária sem expor sua identidade",
+    "section": "",
+    "text": "Isso substitui o meu login no gov.br? Não. A credencial é usada apenas para comprovar faixa etária quando um site ou app solicitar. Seu login no gov.br continua funcionando normalmente.\n\n\nO governo consegue ver quais sites eu acesso? Não. A arquitetura do sistema foi projetada para que nenhum servidor central, nem do governo, saiba onde e quando você usou sua credencial.\n\n\nE se eu perder meu celular? Você pode revogar sua credencial a qualquer momento pelo gov.br e solicitar uma nova. A credencial antiga deixa de funcionar imediatamente.\n\n\nFunciona em qualquer site ou app? Por enquanto, o serviço está em fase de testes com um grupo restrito de plataformas parceiras. A expansão está prevista no Roadmap do projeto →.\n\nSaiba como obter sua credencial →"
   },
   {
     "objectID": "como-funciona/jornada-usuario.html",
@@ -446,5 +404,12 @@
     "title": "Verificação de Idade - Infraestrutura Pública Digital para Proteção de Crianças e Adolescentes",
     "section": "Plataforma Digital ou Desenvolvedor?",
     "text": "Plataforma Digital ou Desenvolvedor?\nA Verificação de Idade é uma infraestrutura aberta, documentada e disponível para toda a sociedade.\nAcesse a documentação técnica"
+  },
+  {
+    "objectID": "desenvolvedor.html#suporte-técnico",
+    "href": "desenvolvedor.html#suporte-técnico",
+    "title": "Sou Desenvolvedor",
+    "section": "Suporte técnico",
+    "text": "Suporte técnico\nPara dúvidas técnicas, abra uma issue no repositório oficial.\nAcessar repositório no GitHub →"
   }
 ]

@@ -709,11 +709,34 @@ h1, h2, h3, h4, h5, h6 {
 // ─── Responsive ──────────────────────────────────────────────────────────────
 
 @media (max-width: 768px) {
+  // Force all Quarto columns to stack vertically on mobile.
+  // Quarto sets inline `style="width:XX%"` on .column divs,
+  // so we need !important to override them.
+  div.columns {
+    flex-direction: column;
+  }
+
+  div.column {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+
   .hero-section {
     padding: 2.5rem 1.25rem 2rem;
     text-align: center;
+
     .hero-description { max-width: 100%; }
-    .hero-image-col { margin-top: 1.5rem; }
+
+    img {
+      max-width: 70%;
+      margin: 1.5rem auto 0;
+      display: block;
+    }
+
+    // Allow hero columns to wrap on mobile
+    div.columns {
+      flex-wrap: wrap;
+    }
   }
 
   .audience-section,
@@ -748,10 +771,15 @@ div.column {
   min-width: 0; // prevents flex items from overflowing their container
 }
 
-// Hero columns: vertically centre image and text
+// Hero columns: vertically centre image and text (desktop)
 .hero-section div.columns {
   align-items: center;
-  flex-wrap: nowrap;
+}
+
+@media (min-width: 769px) {
+  .hero-section div.columns {
+    flex-wrap: nowrap;
+  }
 }
 
 // 1. Override Quarto's CSS grid so content spans full viewport width.
